@@ -1,10 +1,10 @@
 
 import React, { PropTypes } from 'react';
 
-const Header = ({ N }) => (
+const CauseFuckit = ({ N }) => (
     <div style={{position: 'relative'}} className="container">
-        <h1>Click or touch anywhere dude</h1>
+        <h1>This header is just cause</h1>
     </div>
 );
 
-export default Header;
+export default CauseFuckit;

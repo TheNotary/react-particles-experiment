@@ -7,6 +7,8 @@ import { Stage, Layer } from 'react-konva';
 import Particles from './Particles';
 import Footer from './Footer';
 import Header from './Header';
+import CauseFuckit from './CauseFuckit';
+
 
 class App extends Component {
     componentDidMount() {
@@ -52,6 +54,7 @@ class App extends Component {
         return (
             <div onMouseDown={e => this.props.startTicker()} style={{overflow: 'hidden'}}>
                  <Header />
+                 <CauseFuckit />
                  <div style={{width: this.props.svgWidth,
                               height: this.props.svgHeight,
                               position: 'absolute',
